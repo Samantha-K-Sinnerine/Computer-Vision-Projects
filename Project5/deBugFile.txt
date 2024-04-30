@@ -1,0 +1,4 @@
+entering computeEdge() method
+leaving computeEdge() method
+entering crossZero() method
+leaving crossZero() method
