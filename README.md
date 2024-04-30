@@ -3,10 +3,10 @@
 Welcome to the Computer Vision Projects repository! This collection comprises eight projects covering a diverse range of topics in computer vision. Each project aims to explore fundamental concepts and techniques in image processing and analysis. Below is a brief overview of the projects and their purpose included:
 
 1. **Binary and Non-Binary Thresholding**:
-   - Removal of object noise (salt) and background noise (pepper).
+   - Given a grey-scale image and a threshold value, the binary/non-binary threshold operation is to transform pixels in the input image (imgIn) from grey-scale to binary/non-binary values in the output image (imgOut) where imgIn (i, j) >= threshold value. This allows for the removal of object noise (salt) and background noise (pepper).
 
 2. **Bi-Means Automatic Threshold Selection**:
-   - Enables adaptive image thresholding to effectively separate foreground and background.
+   - Given the histogram of a gray-scale image, this project implements the Bi-Means algorithm to automatically determine the optimal thresholds for image segmentation, simplifying the process of separating foreground and background regions.
 
 3. **5x5 Averaging and Corner-Preserve Averaging**:
    - Reduces noise for image enhancement and smoothing.
